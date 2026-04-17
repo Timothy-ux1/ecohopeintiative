@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECO-HOPE Initiative</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet" />
+  <style>
+   
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+ <nav id="mainNav" class="navbar">
+  <a href="index.html" class="nav-brand">
+    <div class="logo-wrapper">
+      <img src="images/logo.png" alt="ECO-HOPE Initiative Logo" class="brand-logo">
+    </div>
+    <div class="brand-text">
+      <span class="brand-name">ECO-HOPE</span>
+      <span class="brand-suffix">Initiative</span>
+    </div>
+  </a>
+
+  <div class="menu-toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="blog.html">BLOG</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="index.html#contact" class="nav-cta">Get Involved</a></li>
+  </ul>
+</nav>
+
+<!HERO >
+<section class="hero" id="hero">
+  <div class="hero-slides">
+    <div class="hero-slide active">
+      <div class="hero-img">
+        <img src="images/banner 2.jpg" alt="Eco-Hope Initiative Banner">
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">Healing Minds · Healing Earth</span>
+        <h1 class="hero-title">Restoring <em>Hope</em><br>Through Nature</h1>
+        <p class="hero-sub">Eco-Hope Initiative stands for the promotion of mental health and climate education. We are creating safe spaces to reimagine our future.</p>
+        <div class="hero-btns">
+          <a href="index.html#programs" class="btn-primary">Explore Programs</a>
+          <a href="about.html" class="btn-ghost">Our Story</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide">
+      <div class="hero-img">
+        <img src="images/impact1.jpg" alt="Community Impact">
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">From Climate Anxiety · To Climate Action</span>
+        <h1 class="hero-title">Communities<br>Leading <em>Change</em></h1>
+        <p class="hero-sub">Turning environmental concern into collective action. From local gardens to large-scale restoration, we empower the next generation.</p>
+        <div class="hero-btns">
+          <a href="blog.html" class="btn-primary">Read Stories</a>
+          <a href="index.html" class="btn-ghost">Join Us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide">
+      <div class="hero-img">
+        <img src="images/anxiety.jpg" style="filter: grayscale(0.5);" alt="Youth Future">
+      </div>
+      <div class="hero-content">
+        <span class="hero-tag">Youth · Future</span>
+        <h1 class="hero-title">A Planet<br>Worth <em>Inheriting</em></h1>
+        <p class="hero-sub">Our programs equip youth with the knowledge and tools to protect our shared natural heritage in East Africa.</p>
+        <div class="hero-btns">
+          <a href="index.html" class="btn-primary">See Our Impact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-dots">
+    <button class="hero-dot active" onclick="goSlide(0)"></button>
+    <button class="hero-dot" onclick="goSlide(1)"></button>
+    <button class="hero-dot" onclick="goSlide(2)"></button>
+  </div>
+</section>
+
+<!-- ── ABOUT SUMMARY ── -->
+<section class="about-summary" id="about-summary">
+  <div class="about-text">
+
+    <h2 class="section-title">At the Intersection of <em>Healing</em>, Learning, and Action</h2>
+    <p class="section-body">ECO-HOPE Initiative stands at the intersection of mental health, climate education, and creative empowerment. Through storytelling, arts, and participatory learning, it provides safe spaces where young people can express their fears, reimagine the future, and take meaningful climate action.</p>
+    <p class="section-body">Its signature philosophy “Rise through climate anxiety toward sustainable, hopeful futures”  continues to inspire children, educators, faith groups, and communities to rebuild their relationship with the Earth with courage and compassion.</p>
+    <a href="about.html" class="btn-primary">Discover Our Full Story </a>
+  </div>
+</section>
+
+<!-- ── PROGRAMS ── -->
+<section id="programs">
+  <div class="section-header reveal">
+    
+    <h2 class="section-title">Our Programs & Initiatives</h2>
+  </div>
+  
+  <div class="programs-grid programs-image-grid">
+    <!-- Storytelling & Climate Literacy -->
+    <div class="program-card-image reveal">
+      <div class="prog-card-media" style="background-image: url('images/act1.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Storytelling & Climate Literacy</h3>
+          <p class="prog-card-desc">Workshops helping children and youth process eco-anxiety through stories, art, and creative writing.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book & School Clubs -->
+    <div class="program-card-image reveal reveal-delay-1">
+      <div class="prog-card-media" style="background-image: url('images/teaching.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Book & School Clubs</h3>
+          <p class="prog-card-desc">Building climate knowledge and creative thinking through structured books and discussion circles.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Climate Memory Wall Podcast -->
+    <div class="program-card-image reveal reveal-delay-2">
+      <div class="prog-card-media" style="background-image: url('images/anxiety.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Climate Memory Wall Podcast</h3>
+          <p class="prog-card-desc">A youth-led platform sharing voices, stories, and innovations focused on climate hope and resilience.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Music, Dance & Drama -->
+    <div class="program-card-image reveal">
+      <div class="prog-card-media" style="background-image: url('images/anxiety2.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Music, Dance & Drama</h3>
+          <p class="prog-card-desc">Harnessing performing arts to communicate critical climate messages with emotion and hope.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interfaith & Intercultural Dialogues -->
+    <div class="program-card-image reveal reveal-delay-1">
+      <div class="prog-card-media" style="background-image: url('images/wall1.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Interfaith & Intercultural Dialogues</h3>
+          <p class="prog-card-desc">Promoting unity and moral courage across faith traditions through collective climate reflection.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sports for Climate Campaigns -->
+    <div class="program-card-image reveal reveal-delay-2">
+      <div class="prog-card-media" style="background-image: url('images/ezpression1.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Sports for Climate Campaigns</h3>
+          <p class="prog-card-desc">Using sports to promote teamwork, inclusion, and environmental awareness in local communities.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tree Planting & Eco-Action -->
+    <div class="program-card-image reveal">
+      <div class="prog-card-media" style="background-image: url('images/impact1.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Tree Planting & Eco-Action</h3>
+          <p class="prog-card-desc">Greening communities while cultivating an enduring emotional and physical connection to nature.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Misinformation & Resilience -->
+    <div class="program-card-image reveal reveal-delay-1">
+      <div class="prog-card-media" style="background-image: url('images/anxiety3.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Misinformation & Resilience</h3>
+          <p class="prog-card-desc">Empowering youth to discern environmental truth and manage climate-related anxiety.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Documentary & Media Production -->
+    <div class="program-card-image reveal reveal-delay-2">
+      <div class="prog-card-media" style="background-image: url('images/impact2.jpg'); background-size: cover; background-position: center;">
+        <div class="prog-card-overlay">
+          <h3 class="prog-card-title">Documentary & Media Production</h3>
+          <p class="prog-card-desc">Capturing transformative visual stories that shift the public narrative from fear to hope.</p>
+          <a href="#" class="prog-card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stories" class="section container">
+  <h2 class="section-title reveal" style="font-size:clamp(2rem,3vw,2.8rem);">Change Looks Like This</h2>
+  
+  <div class="stories-layout">
+    <div class="story-featured reveal">
+      <div class="story-img-placeholder" style="background-image: url('images/kamulegeya.jpeg'); background-size: cover;">
+        </div>
+      <div class="story-body">
+        <span class="story-tag">Founder's Narrative</span>
+        <h3 class="story-title">"Real peace is not the absence of war; it is freedom from climate anxiety."</h3>
+        <p class="story-excerpt">
+          Our founder, John Kamulegeya, believes that hope is not passive—it is action. By transforming climate anxiety into possibility, we are helping the youth move from a state of "doom" to becoming the architects of a green future.
+        </p>
+        <a href="blog.html" class="text-link">Read the Full Story </a>
+      </div>
+    </div>
+
+    <div class="stories-sidebar">
+      <div class="story-mini reveal reveal-delay-1">
+        <div class="story-mini-num">01</div>
+        <div>
+          <div class="story-mini-title">The Kampala Mindset Shift</div>
+          <div class="story-mini-text">Moving beyond recycling bins to changing values in children aged 3–12 to create a waste-free future.</div>
+          <a href="blog.html" class="text-link" style="font-size: 0.8rem;">Read More</a>
+        </div>
+      </div>
+      
+      <div class="story-mini reveal reveal-delay-2">
+        <div class="story-mini-num">02</div>
+        <div>
+          <div class="story-mini-title">Storytelling as Technology</div>
+          <div class="story-mini-text">How ancient oral traditions are being used to turn scientific facts into social realities and prosocial behavior.</div>
+          <a href="blog.html" class="text-link" style="font-size: 0.8rem;">Read More</a>
+        </div>
+      </div>
+
+      <div class="story-mini reveal reveal-delay-3">
+        <div class="story-mini-num">03</div>
+        <div>
+          <div class="story-mini-title">Addressing Eco-Anxiety</div>
+          <div class="story-mini-text">Understanding the psychological toll of climate change and providing tools for mental resilience and safety.</div>
+          <a href="blog.html" class="text-link" style="font-size: 0.8rem;">Read More</a>
+        </div>
+      </div>
+
+      <div class="story-mini reveal reveal-delay-4">
+        <div class="story-mini-num">04</div>
+        <div>
+          <div class="story-mini-title">1 Billion Saviors</div>
+          <div class="story-mini-text">Our vision for a global network of hope where everyone helps by doing what they do best.</div>
+          <a href="blog.html" class="text-link" style="font-size: 0.8rem;">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<<section id="impact" class="container">
+  <div class="section-header reveal">
+    <h2 class="section-title">The Climate Wall</h2>
+    <p class="section-lead">Visual evidence of our outreach, training and community transformation.</p>
+  </div>
+
+  <div class="impact-wall">
+    
+    <div class="impact-card reveal">
+      <div class="card-media" style="background-image: url('images/impact1.jpg'); background-size: cover; background-position: center;">
+        <div class="media-overlay">
+          <div class="impact-stats">
+            <span class="impact-num">250<span class="impact-unit">K</span></span>
+            <h3 class="card-label">Trees Planted</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Restoring degraded hillsides and riverbanks since 2018.</p>
+      </div>
+    </div>
+
+    <div class="impact-card reveal reveal-delay-1">
+      <div class="card-media" style="background-image: url('images/teaching.jpg'); background-size: cover; background-position: center;">
+        <div class="media-overlay">
+          <div class="impact-stats">
+            <span class="impact-num">1<span class="impact-unit">K+</span></span>
+            <h3 class="card-label">People Reached</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Direct training in informal settlements and refugee camps.</p>
+      </div>
+    </div>
+
+    <div class="impact-card reveal reveal-delay-2">
+      <div class="card-media" style="background-image: url('images/wall1.jpg'); background-size: cover; background-position: center;">
+        <div class="media-overlay">
+          <div class="impact-stats">
+            <span class="impact-num">50</span>
+            <h3 class="card-label">Schools Engaged</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Active Green School clubs leading student-led projects.</p>
+      </div>
+    </div>
+
+    <div class="impact-card reveal reveal-delay-3">
+      <div class="card-media" style="background-image: url('images/lunch1.jpg'); background-size: cover; background-position: center;">
+        <div class="media-overlay">
+          <div class="impact-stats">
+            <span class="impact-num">50<span class="impact-unit"></span></span>
+            <h3 class="card-label">Out Reaches</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Providing clean light and reducing firewood use in rural homes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <h2 class="section-title reveal" style="font-size:clamp(2rem,3vw,2.8rem);color:var(--forest);">Let's Build a Greener Future Together</h2>
+  <div class="contact-layout">
+    <div>
+      <p class="contact-info-text">Whether you want to partner with us, volunteer, donate, or simply learn more — we'd love to hear from you. Every connection matters in the work of building climate resilience.</p>
+      <div class="contact-detail">
+        <div>
+          <div class="contact-detail-label">Address</div>
+          <div class="contact-detail-text">Nakyessanja, Nansana Municipality<br>Wakiso, Uganda</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+
+        <div>
+          <div class="contact-detail-label">Email</div>
+          <div class="contact-detail-text">
+            <a href="mailto:ecohopeinitiative@gmail.com" style="text-decoration: none; color: inherit;">
+                ecohopeinitiative@gmail.com
+            </a>
+</div>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div>
+          <div class="contact-detail-label">Phone</div>
+          <div class="contact-detail-text">
+            <a href="tel:+256764076711" style="text-decoration: none; color: inherit;">
+              +256764076711
+            </a>
+</div>
+        </div>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="first-name">First Name</label>
+          <input class="form-input" id="first-name" name="firstName" type="text" placeholder="Jane" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="last-name">Last Name</label>
+          <input class="form-input" id="last-name" name="lastName" type="text" placeholder="Nakato" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="email-address">Email Address</label>
+        <input class="form-input" id="email-address" name="email" type="email" placeholder="jane@gmail.com" required />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="message">Your Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about yourself and how you'd like to get involved…" required></textarea>
+      </div>
+      <button type="submit" class="form-submit">Send Message </button>
+    </form>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-brand-box">
+            <div class="footer-brand">ECO-HOPE Initiative</div>
+            <p class="license-tag">Reg No: NMC/CBO/141/26</p>
+        </div>
+
+        <div class="footer-connect">
+            <h4 class="connect-title">Let's Connect</h4>
+            <div class="social-flex">
+                <a href="https://youtube.com/@ecohopeglobal?si=rUluqJ10L67sGsvz" target="_blank" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://x.com/ecohopeglobal?t=sFXBrUMTEYDn8J4AHgHOMA&s=09" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://linkedin.com/company/ecohopeglobal" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://vm.tiktok.com/ZS9LXLxc4BgKp-MP3QB/  " target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/ecohopeglobal" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> ECO-HOPE Initiative · All rights reserved</p>
+    </div>
+</footer>
+<!-- ── FLOATING WHATSAPP BUTTON ── -->
+<a href="https://wa.me/256764076711" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+<script>
+  
+</script>
+</body>
+</html>
